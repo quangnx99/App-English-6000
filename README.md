@@ -10,7 +10,6 @@ Là thư mục lưu trữ code chính.
 
 # Hướng dẫn chạy code ứng dụng
 Yêu cầu : Phần mềm Android Studio để chạy máy ảo. Visual Studio Code để run code\
-Clone các thư mục. 
 ```sh
 $ cd Eng
 $ npm install

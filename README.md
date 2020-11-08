@@ -5,7 +5,7 @@
 4. Phạm Hồng Quân\
 
 # Nội dung các thư mục
-1. Thư mục Eng\
+Thư mục Eng\
 Là thư mục lưu trữ code chính.
 
 # Hướng dẫn chạy code ứng dụng

@@ -1,15 +1,15 @@
 # Ứng dụng được phát triển bởi
-1. Nguyễn Xuân Quang (Teamlead)\
-2. Nguyễn Tuấn Anh\
-3. Trần Quốc Tiến\
-4. Phạm Hồng Quân\
+1. Nguyễn Xuân Quang (Teamlead)
+2. Nguyễn Tuấn Anh
+3. Trần Quốc Tiến
+4. Phạm Hồng Quân
 
 # Nội dung các thư mục
 Thư mục Eng\
 Là thư mục lưu trữ code chính.
 
 # Hướng dẫn chạy code ứng dụng
-Yêu cầu : Phần mềm Android Studio để chạy máy ảo. Visual Studio Code để run code\
+Yêu cầu : Phần mềm Android Studio để chạy máy ảo. Visual Studio Code để run code
 ```sh
 $ cd Eng
 $ npm install

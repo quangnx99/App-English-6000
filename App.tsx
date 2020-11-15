@@ -9,28 +9,28 @@
  */
 
 import * as React from 'react';
-import { MyApp } from './src/android/navigation'; 
-import firebase from 'firebase'; 
-import firebaseConfig from './src/android/constants/firebaseConfig'; 
-import { getDataFromStorage, storeDataToStorage } from './src/android/services'; 
+import { MyApp } from './src/android/navigation';
+import firebase from 'firebase';
+import firebaseConfig from './src/android/constants/firebaseConfig';
+import { getDataFromStorage, storeDataToStorage } from './src/android/services';
 // import { AsyncStorage, View, Text } from 'react-native'; 
-
+console.disableYellowBox = true;
 const App = () => {
-  if (!firebase.apps.length){
-    firebase.initializeApp(firebaseConfig); 
+  if (!firebase.apps.length) {
+    firebase.initializeApp(firebaseConfig);
   }
 
   const check = async () => {
-    let lessons = await getDataFromStorage('favoriteLessons'); 
+    let lessons = await getDataFromStorage('favoriteLessons');
     if (lessons == null) {
       storeDataToStorage('favoriteLessons', JSON.stringify({}))
     }
-    let words = await getDataFromStorage('favoriteWords'); 
+    let words = await getDataFromStorage('favoriteWords');
     if (words == null) {
       storeDataToStorage('favoriteWords', JSON.stringify({}))
     }
   }
-  check(); 
+  check();
   return (
     <MyApp />
   )
